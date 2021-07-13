@@ -86,6 +86,64 @@ top-banner css code start from here
     margin-right: 9px;
 }
 
+/* ----------------------------
+top-banner css code end here 
+-------------------------------- */
+
+/* -----------------------------------
+  player details css code start here
+-------------- -----------------------*/
+
+#player-details{
+    padding: 30px 0 110px 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players img{
+    width: 100%;
+}
+.player{
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 700;
+}
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 32px;
+}
+/*------------------------------------
+   player details css code end here
+-------------------------------------  */
+
+/* ------------------------------------------
+  All highlight css code start from here
+------------------------------------------- */
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.highlights img{
+    width: 100%;
+}
+.highlight-data h2{
+    font-size: 48px;
+    color: #0A0826;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+}
+.highlight-data p{
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}
 
 
 
