@@ -145,6 +145,35 @@ top-banner css code end here
     margin-bottom: 30px;
 }
 
+/* ------------------------------------
+   highlight area css code end here
+----------------------------------- */
+
+
+ /* ----------------------------------
+    footer css code start from here
+ ----------------------------------- */
+footer{
+    text-align: center;
+    margin: 150px 0 68px 0 ;
+}
+footer img{
+    width: 34%;
+}
+footer ul li{
+list-style: none;
+display: inline-block;
+margin: 32px 13px;
+height: 34px;
+width: 34px;
+background-color: #e7e9eb;
+border-radius: 50%;
+}
+footer li a{
+    color: #969BAB;
+    position: relative;
+    top: 5px;
+}
 
 
 
