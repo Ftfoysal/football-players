@@ -1,0 +1,92 @@
+/* ----------------
+   common styles
+------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------------------
+    common styles end here
+---------------------------- */
+
+/* -----------------------------
+  header section css code start from here
+--------------------------------- */
+header{
+    background-color: #5200d0;
+    padding: 42px 0px 49px 0px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a{
+color:white;
+margin-right: 30px;
+font-size: 16px;
+}
+nav a:hover{
+    color: #E02C6D;
+}
+
+.button-1 a{
+    background-color:  #E02C6D;
+    padding: 10px 24px;
+}
+
+.button-1 span{   
+margin-left: 9px;
+}
+
+/* ---------------------------
+header section css code end here
+-------------------------------- */
+
+/* -------------------------------
+top-banner css code start from here
+---------------------------------- */
+
+#top-poster-section{
+    background-color: #5200d0;
+    padding-bottom: 160px;
+}
+
+.top-poster{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.top-poster h1{
+    font-size: 64px;
+    margin: 72px 0 27px 0;
+    font-weight: 700;
+    color: white;
+}
+.top-poster img{
+    width: 100%;
+}
+.button-2 a{
+    background-color:  #E02C6D;
+    padding: 10px 24px;
+    color: white;
+}
+.button-2 span{
+    margin-right: 9px;
+}
+
+
+
+
+
