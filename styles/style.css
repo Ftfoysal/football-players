@@ -91,7 +91,7 @@ top-banner css code end here
 -------------------------------- */
 
 /* -----------------------------------
-  player details css code start here
+  player details css code start from here
 -------------- -----------------------*/
 
 #player-details{
@@ -138,11 +138,13 @@ top-banner css code end here
     font-size: 48px;
     color: #0A0826;
     font-weight: 700;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 10px 0;
 }
 .highlight-data p{
     color: #6C6C6C;
     margin-bottom: 30px;
+    width: 404px;
+    padding: 20px 0;
 }
 
 /* ------------------------------------
