@@ -145,6 +145,10 @@ top-banner css code end here
     margin-bottom: 30px;
     width: 404px;
     padding: 20px 0;
+} 
+
+.football-striker img{
+    width: 34%;
 }
 
 /* ------------------------------------
@@ -157,11 +161,13 @@ top-banner css code end here
  ----------------------------------- */
 footer{
     text-align: center;
-    margin: 150px 0 68px 0 ;
+    margin: 150px 0 0 0 ;
+    
 }
-footer img{
-    width: 34%;
+.footer-area{
+    background-color: #e7e9eb;
 }
+
 footer ul li{
 list-style: none;
 display: inline-block;
@@ -177,5 +183,26 @@ footer li a{
     top: 5px;
 }
 
+.options{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+ .options h2{
+     color:gray;
+ }
+ 
 
+.options li {
+    list-style: none;
+}
+ 
+.options li a{
+    color: gray;
+    padding: 5px 0;
+}
+footer p{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
 
